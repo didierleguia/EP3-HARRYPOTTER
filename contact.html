@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Harry Potter</title>
+<link rel="icon" href="images/iconodelapagina.png">
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	
+	<!-- Header -->
+	<div class="header">
+	  <img src="images/logo.png">
+	</div>
+
+	<!-- Navigation Bar -->
+	<div class="topnav" id="myTopnav">
+		<a href="index.html">Home</a>
+		<a href="about.html">Hogwarts</a>
+		<a href="Peliculas.html">Peliculas</a>
+		<a href="contact.html"class="active">Contacto</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		  <i class="fa fa-bars"></i>
+		</a>
+	  </div>
+
+	<!-- The flexible grid (content) -->
+	<div class="row">
+	  <div class="side">
+		<h2 style="text-align: center;font-size: 30px;background-color:#070724 ;color:#ffe509 ;padding: 15px;border-radius: 15px;">Contacto</h2>
+		<h5>¿Tienes alguna pregunta sobre el mundo mágico o deseas compartir tus hechizos favoritos? No dudes en enviarnos un mensaje con tu lechuza digital. Estamos aquí para escuchar tus historias y sugerencias para hacer de este sitio un lugar aún más mágico.”</h5>
+		<div class="fakeimg"><img src="images/ave-enhanced.png"></div><br>
+		
+	  </div>
+	  <div class="main">
+		<h2>Conjura Mejoras con Nosotros</h2>
+		<form action="action_page.php" method="get">
+				<label>Nombre del Mago/Bruja:</label><br><br>
+					<input type="text" required placeholder="Escribe tu nombre"><br><br>
+				<label>Dirección de Correo Muggle</label><br><br>
+					<input type="email" required placeholder="coreoelectronico@"><br><br><br>
+				<label>Comentarios sobre la pagina </label><br><br>
+					<div>
+					    <label>¿De que casa cosideras que eres?</label><br><br>
+						<div class="espacio-form-div">
+							<input type="radio" name="saga" value="vader" class="input-texto-form" checked id="cast-01">
+							<label for="cast-01">Gryffindor</label> 
+						</div>
+						<div class="espacio-form-div">
+							<input type="radio" name="saga" value="solo" class="input-texto-form" id="cast-02">
+							<label for="cast-02">Ravenclaw</label> 
+						</div>
+						<div class="espacio-form-div">
+							<input type="radio" name="saga" value="luke" class="input-texto-form" id="cast-03">
+							<label for="cast-03">Slytherin</label> 
+						</div>
+						<div class="espacio-form-div">
+							<input type="radio" name="saga" value="luke" class="input-texto-form" id="cast-03">
+							<label for="cast-03">Hufflepuff</label> 
+						</div>
+					</div>
+					<br>
+				<label>Pelicula favorita de harry potter?</label><br><br>
+					<div>
+						<div class="espacio-form-div">
+							<input type="checkbox" name="sws" value="ep3" class="input-texto-form" id="movie-03">
+							<label for="movie-03">Harry Potter y la Piedra Filosofal	</label> 
+						</div>
+						<div class="espacio-form-div">
+							<input type="checkbox" name="sws" value="ep5" class="input-texto-form" id="movie-05">
+							<label for="movie-05">Harry Potter y la Cámara Secreta</label> 
+						</div>
+						<div class="espacio-form-div">
+							<input type="checkbox" name="sws" value="ep8" class="input-texto-form" id="movie-08">
+							<label for="movie-08">Harry Potter y el Prisionero de Azkaban</label> 
+						</div>
+						<div class="espacio-form-div">
+							<input type="checkbox" name="sws" value="ep8" class="input-texto-form" id="movie-08">
+							<label for="movie-08">Harry Potter y el Cáliz de Fuego</label> 
+						</div>
+						<div class="espacio-form-div">
+							<input type="checkbox" name="sws" value="ep8" class="input-texto-form" id="movie-08">
+							<label for="movie-08">Harry Potter y la Orden del Fénix</label> 
+						</div>
+						<div class="espacio-form-div">
+							<input type="checkbox" name="sws" value="ep8" class="input-texto-form" id="movie-08">
+							<label for="movie-08">Harry Potter y el Misterio del Príncipe</label> 
+						</div>
+						<div class="espacio-form-div">
+							<input type="checkbox" name="sws" value="ep8" class="input-texto-form" id="movie-08">
+							<label for="movie-08">Harry Potter y las Reliquias de la Muerte - Parte 1</label> 
+						</div>
+						<div class="espacio-form-div">
+							<input type="checkbox" name="sws" value="ep8" class="input-texto-form" id="movie-08">
+							<label for="movie-08">Harry Potter y las Reliquias de la Muerte - Parte 2</label> 
+						</div>
+					</div>
+				<br>
+				<label>¿Qué tipo de contenido disfrutas más en la página</label><br><br>
+					<select name="best_act" class="combos">
+						<option value="ridley" selected>Home</option>
+						<option value="driver">Hogwarts</option>
+						<option value="isaac">Peliculas</option>
+						
+					</select><br>
+				<br>
+				<label>¿Recomendarías nuestra página a otros fanáticos de Harry Potter? ¿Por qué sí o por qué no?</label><br><br>
+				<textarea name="comentario" rows="10" cols="30" required placeholder="Write a comment (no more to 1200 type characters)" class="mensaje"></textarea><br>
+				<input type="submit" value="Send">
+			</form>
+	  </div>
+	</div>
+
+	<!-- Footer -->
+	<div class="footer">
+	  <p style="color: #fff;font-size: 20px;">2024 & © Saga Harry Potter - Didier Leguia</p>
+	</div>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		</script>
+	
+</body>
+</html>

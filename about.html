@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Harry Potter</title>
+<link rel="icon" href="images/iconodelapagina.png">
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	
+	<!-- Header -->
+	<div class="header">
+	  <img src="images/logo.png">
+	</div>
+
+	<!-- Navigation Bar -->
+	<div class="topnav" id="myTopnav">
+		<a href="index.html">Home</a>
+		<a href="about.html"class="active">Hogwarts</a>
+		<a href="Peliculas.html">Peliculas</a>
+		<a href="contact.html">Contacto</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		  <i class="fa fa-bars"></i>
+		</a>
+	  </div>
+
+	<!-- The flexible grid (content) -->
+	<div class="row">
+	  <div class="side">
+		<h2 id="fundadores">FUNDADORES  DE  HOGWARTS</h2>
+		<br>
+		<H2 style="font-size: 30px;text-align: center;">Godric Gryffindor</H2><br>
+		<div class="fotofundadores"><img src="images/fundadores.png"></div><br>
+		<H2 style="font-size: 30px;text-align: center;">Salazar Slytherin</H2>
+		<div class="fotofundadores"><img src="images/fundadores1.png"></div><br>
+		<H2 style="font-size: 30px;text-align: center;">Rowena Ravenclaw</H2>
+		<div class="fotofundadores"><img src="images/fundadores2.png"></div><br>
+		<H2 style="font-size: 30px;text-align: center;">Helga Hufflepuff</H2>
+		<div class="fotofundadores"><img src="images/fundadora3.png"></div>
+		
+		
+	  </div>
+	  <div class="main">
+		<h2 class="titutlos">HOGWARTS</h2>
+		<div class="fakeimg">
+			<img src="images/hogwards-enhanced (1).png"> 
+			
+		</div>
+		<p>Harry Potter: Huérfano criado por sus tios muggles, descubre su identidad mágica a los 11 años. Famoso por sobrevivir al ataque de Voldemort cuando era bebé, lo que le dejó una cicatriz en forma de rayo en la frente.</p>
+		<p>Hermione Granger: Muggle nacida con gran inteligencia y habilidad para la magia. Se destaca por su conocimiento enciclopédico y su valentía.</p>
+		<p>Ron Weasley: Miembro de una extensa familia de magos, es leal y tiene un gran sentido del humor. A menudo proporciona el alivio cómico en los momentos tensos.</p>
+		<br>
+		<h2 class="titutlos">CASAS DE HOGWARTS</h2>
+		<div class="fakeimg">
+			<img src="images/casasharry potter.png">
+		</div>
+		<p>Las casas de Hogwarts son cuatro grupos distintos en los que los estudiantes son clasificados al ingresar a la escuela. Cada casa representa un conjunto de valores y personalidades:</p>
+		<p>Gryffindor: Valora el coraje, la valentía y la determinación. Los Gryffindors son conocidos por su disposición a luchar por lo que es justo.</p>
+		<p>Slytherin: Valora la ambición, la astucia y el liderazgo. Los Slytherins son conocidos por su determinación para alcanzar sus metas a cualquier costo.</p>
+		<p>Hufflepuff: Valora la lealtad, la paciencia y la justicia. Los Hufflepuffs son conocidos por su ética de trabajo y su imparcialidad.</p>
+		<p>Ravenclaw: Valora la inteligencia, el aprendizaje y la sabiduría. Los Ravenclaws son conocidos por su amor al aprendizaje y su creatividad.</p>
+		<p>Estas casas no solo sirven para dividir a los estudiantes durante su educación, sino que también proporcionan una familia y una comunidad mientras están en Hogwarts.</p>
+		<br>
+		<h2  class="titutlos">El Sombrero Seleccionador</h2>
+		<div class="fakeimg">
+			<img src="images/sombrero-enhanced.png">
+		</div>
+		<p>Originalmente pertenecía a Godric Gryffindor y fue encantado por los cuatro fundadores para asegurar que los estudiantes fueran seleccionados para las casas apropiadas después de que ellos se fueran.</p>
+	  </div>
+	</div>
+
+	<!-- Footer -->
+	<div class="footer">
+	  <p style="color: #fff;font-size: 20px;">2024 & © Saga Harry Potter - Didier Leguia</p>
+	</div>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		</script>
+	
+</body>
+</html>

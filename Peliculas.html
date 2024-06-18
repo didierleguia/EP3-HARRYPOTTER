@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Harry Potter</title>
+<link rel="icon" href="images/iconodelapagina.png">
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	
+	<!-- Header -->
+	<div class="header">
+	  <img src="images/logo.png">
+	</div>
+
+	<!-- Navigation Bar -->
+	<div class="topnav" id="myTopnav">
+		<a href="index.html">Home</a>
+		<a href="about.html">Hogwarts</a>
+		<a href="Peliculas.html"class="active">Peliculas</a>
+		<a href="contact.html">Contacto</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		  <i class="fa fa-bars"></i>
+		</a>
+	  </div>
+
+	<!-- The flexible grid (content) -->
+	<div class="row">
+	  <div class="side">
+		<h2 id="personajesprincipales">PERSONAJES PRINCIPALES</h2>
+		<H2 style="font-size: 30px;text-align: center;">Harry Potter</H2>
+		<div class="personajes"><img src="images/harry-personaje.png"></div><br>
+		<H2 style="font-size: 30px;text-align: center;">Ron Weasley</H2>
+		<div class="personajes"><img src="images/Ron_Weasley_poster.png"></div><br>
+		<H2 style="font-size: 30px;text-align: center;">Hermione Granger</H2>
+		<div class="personajes"><img src="images/Hermione_Granger_poster.png"></div>
+	  </div>
+	  <div class="main">
+		<h2 style="font-size: 40px;text-align: center;color: #ffe509;">RESUMEN DE LAS PELICULAS</h2>
+		<h5 style="text-align: center;">Video - 1 HORA</h5>
+		<div class="fakeimg-video">
+		<div class="video-responsive">
+			<iframe width="460" height="215" src="https://www.youtube.com/embed/pvDuK_mcvmo?si=PIxSZzYpZ9Db8UtP"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+		</div>
+		</div>
+		
+		
+		<table>
+			<caption style="font-size: 40px;text-align: center;color: #ffe509;">CRONOLOGIA DE LAS PELICULAS</caption>
+			<br>
+			<br>
+			<tr>
+				<th>N°</th>
+				<th>Titulo</th>
+				<th>Año</th>
+				<th>Director De La Pelicula</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Harry Potter y la Piedra Filosofal</td>
+				<td>2001</td>
+				<td>Chris Columbus</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Harry Potter y la Cámara Secreta</td>
+				<td>2002</td>
+				<td>Chris Columbus</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Harry Potter y el Prisionero de Azkaban</td>
+				<td>2004</td>
+				<td>Alfonso Cuarón</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Harry Potter y el Cáliz de Fuego</td>
+				<td>2005</td>
+				<td>Mike Newell</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Harry Potter y la Orden del Fénix</td>
+				<td>2007</td>
+				<td>David Yates</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>Harry Potter y el Misterio del Príncipe</td>
+				<td>2009</td>
+				<td>David Yates</td>
+			</tr>
+			<tr>
+				<td>7.1</td>
+				<td>Harry Potter y las Reliquias de la Muerte - Parte 1</td>
+				<td>2010</td>
+				<td>David Yates</td>
+			</tr>
+			<tr>
+				<td>7.2</td>
+				<td>Harry Potter y las Reliquias de la Muerte - Parte 2</td>
+				<td>2011</td>
+				<td>David Yates</td>
+			</tr>
+			
+		</table>
+		<BR></BR>  
+		<h3 style="font-size: 40px;text-align: center;color: #ffe509;">PORTADAS DE LAS PELICULAS - HARRY POTTER</h3>
+		<p></p>
+		<div class="gallery01">
+			<div class="fakeimg-01"><img src="images/PELI1.jpg"></div>
+			<div class="fakeimg-01"><img src="images/PELI2.jpg"></div>
+			<div class="fakeimg-01"><img src="images/PELI3.jpg"></div>
+			<div class="fakeimg-01"><img src="images/PELI4.jpg"></div>
+			<div class="fakeimg-01"><img src="images/PELI5.jpg"></div>
+			<div class="fakeimg-01"><img src="images/PELI6.jpg"></div><br>
+			<div class="fakeimg-01"><img src="images/PELI7.jpg"></div><br>
+			<div class="fakeimg-01"><img src="images/PELI8.jpg"></div><br>
+		</div>
+		
+	  </div>
+	</div>
+
+	<!-- Footer -->
+	<div class="footer">
+	  <p style="color: #fff;font-size: 20px;">2024 & © Saga Harry Potter - Didier Leguia</p>
+	</div>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		</script>
+	
+</body>
+</html>
